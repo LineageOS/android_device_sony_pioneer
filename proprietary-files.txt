@@ -1,0 +1,25 @@
+# Audio ACDB
+vendor/etc/acdbdata/MTP/SM12/MTP_SM12_ACDB_version.txt
+vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP/SM12/MTP_SM12_General_cal.acdb
+vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Global_cal.acdb
+vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Handset_cal.acdb
+vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Headset_cal.acdb
+vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Speaker_cal.acdb
+vendor/etc/acdbdata/MTP/SM12/MTP_SM12_workspaceFile.qwsp
+vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_ACDB_version.txt
+vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_General_cal.acdb
+vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Global_cal.acdb
+vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Handset_cal.acdb
+vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Headset_cal.acdb
+vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Speaker_cal.acdb
+vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_workspaceFile.qwsp
+
+# QNS
+vendor/bin/qns_12
+
+# WiFi
+vendor/etc/wifi/bdwlan12.bin:vendor/etc/wifi/bdwlan.bin

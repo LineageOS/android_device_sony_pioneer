@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_device_sony_nile-common",
+    "target_path": "device/sony/nile-common"
+  }
+]
