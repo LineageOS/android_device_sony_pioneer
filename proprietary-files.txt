@@ -18,6 +18,91 @@ vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Headset_cal.acdb
 vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_workspaceFile.qwsp
 
+# Camera actuators
+vendor/firmware/bu24228gwl_fw1.bin
+vendor/firmware/bu24228gwl_fw2.bin
+vendor/firmware/bu64747gwz.coeff
+vendor/firmware/bu64747gwz.prog
+vendor/lib/libactuator_bu64747gwz.so
+vendor/lib/libactuator_bu24228gwl.so
+
+# Camera chromatix
+vendor/lib/libchromatix_imx219_chicony_common.so
+vendor/lib/libchromatix_imx219_chicony_cpp_liveshot.so
+vendor/lib/libchromatix_imx219_chicony_cpp_preview.so
+vendor/lib/libchromatix_imx219_chicony_cpp_snapshot.so
+vendor/lib/libchromatix_imx219_chicony_cpp_video.so
+vendor/lib/libchromatix_imx219_chicony_default_video.so
+vendor/lib/libchromatix_imx219_chicony_liveshot.so
+vendor/lib/libchromatix_imx219_chicony_postproc.so
+vendor/lib/libchromatix_imx219_chicony_preview.so
+vendor/lib/libchromatix_imx219_chicony_snapshot.so
+vendor/lib/libchromatix_imx219_chicony_zsl_preview_lc898122.so
+vendor/lib/libchromatix_imx219_chicony_zsl_video_lc898122.so
+vendor/lib/libchromatix_imx219_common.so
+vendor/lib/libchromatix_imx219_cpp_liveshot.so
+vendor/lib/libchromatix_imx219_cpp_preview.so
+vendor/lib/libchromatix_imx219_cpp_snapshot.so
+vendor/lib/libchromatix_imx219_cpp_video.so
+vendor/lib/libchromatix_imx219_default_video.so
+vendor/lib/libchromatix_imx219_liveshot.so
+vendor/lib/libchromatix_imx219_postproc.so
+vendor/lib/libchromatix_imx219_preview.so
+vendor/lib/libchromatix_imx219_snapshot.so
+vendor/lib/libchromatix_imx219_zsl_preview_lc898122.so
+vendor/lib/libchromatix_imx219_zsl_video_lc898122.so
+vendor/lib/libchromatix_imx300_4K_panorama.so
+vendor/lib/libchromatix_imx300_4K_preview.so
+vendor/lib/libchromatix_imx300_4K_video.so
+vendor/lib/libchromatix_imx300_common_6db.so
+vendor/lib/libchromatix_imx300_common.so
+vendor/lib/libchromatix_imx300_cpp_hfr_120.so
+vendor/lib/libchromatix_imx300_cpp_hfr_60.so
+vendor/lib/libchromatix_imx300_cpp_hfr_90.so
+vendor/lib/libchromatix_imx300_cpp_liveshot.so
+vendor/lib/libchromatix_imx300_cpp_preview.so
+vendor/lib/libchromatix_imx300_cpp_snapshot_hdr.so
+vendor/lib/libchromatix_imx300_cpp_snapshot.so
+vendor/lib/libchromatix_imx300_cpp_video_hdr.so
+vendor/lib/libchromatix_imx300_cpp_video.so
+vendor/lib/libchromatix_imx300_default_preview.so
+vendor/lib/libchromatix_imx300_default_video.so
+vendor/lib/libchromatix_imx300_hdr_snapshot_3a.so
+vendor/lib/libchromatix_imx300_hdr_video_3a.so
+vendor/lib/libchromatix_imx300_hfr_120_3a.so
+vendor/lib/libchromatix_imx300_hfr_120.so
+vendor/lib/libchromatix_imx300_hfr_60_3a.so
+vendor/lib/libchromatix_imx300_hfr_60.so
+vendor/lib/libchromatix_imx300_hfr_90_3a.so
+vendor/lib/libchromatix_imx300_hfr_90.so
+vendor/lib/libchromatix_imx300_liveshot.so
+vendor/lib/libchromatix_imx300_postproc.so
+vendor/lib/libchromatix_imx300_preview.so
+vendor/lib/libchromatix_imx300_snapshot_hdr.so
+vendor/lib/libchromatix_imx300_snapshot.so
+vendor/lib/libchromatix_imx300_video_hdr.so
+vendor/lib/libchromatix_imx300_video.so
+vendor/lib/libchromatix_imx300_zsl_preview_20m_6db.so
+vendor/lib/libchromatix_imx300_zsl_preview_20m.so
+vendor/lib/libchromatix_imx300_zsl_preview_6db.so
+vendor/lib/libchromatix_imx300_zsl_preview.so
+vendor/lib/libchromatix_imx300_zsl_video.so
+
+# Camera configs
+vendor/etc/camera/camera_config.xml
+vendor/etc/camera/imx219_chicony_chromatix.xml
+vendor/etc/camera/imx219_chromatix.xml
+vendor/etc/camera/imx300_chromatix.xml
+
+# Camera eeproms
+vendor/lib/libmmcamera_sony_imx219_eeprom.so
+vendor/lib/libmmcamera_sony_imx300_eeprom.so
+
+# Camera sensors
+vendor/lib/libmmcamera_imx219_chicony.so
+vendor/lib/libmmcamera_imx219.so
+vendor/lib/libmmcamera_imx300.so
+
 # QNS
 vendor/bin/qns_12
 
