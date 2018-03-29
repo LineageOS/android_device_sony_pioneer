@@ -107,4 +107,4 @@ vendor/lib/libmmcamera_imx300.so
 vendor/bin/qns_12
 
 # WiFi
-vendor/etc/wifi/bdwlan12.bin:vendor/etc/wifi/bdwlan.bin
+vendor/etc/wifi/bdwlan12.bin
