@@ -18,9 +18,6 @@
 
 DEVICE_PATH := device/sony/pioneer
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := pioneer
-
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
