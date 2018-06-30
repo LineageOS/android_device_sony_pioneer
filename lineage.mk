@@ -25,4 +25,12 @@ PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia XA2
 PRODUCT_MANUFACTURER := Sony
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE="nile" \
+    PRODUCT_NAME="nile" \
+    PRIVATE_BUILD_DESC="nile-user 8.0.0 OPR1.170623.027 14 dev-keys"
+
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := "Android/nile/nile:8.0.0/OPR1.170623.027/14:user/dev-keys"
+
 PRODUCT_GMS_CLIENTID_BASE := android-sony
