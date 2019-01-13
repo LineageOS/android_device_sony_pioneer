@@ -202,6 +202,9 @@ vendor/etc/IMX300/ISO800_3840x2160.ncf
 vendor/etc/IMX300/ISO8800_3264x2448.ncf
 vendor/etc/IMX300/ISO8800_3840x2160.ncf
 
+# Camera OIS
+vendor/lib/libois_bu24228.so
+
 # Camera sensors
 vendor/lib/libmmcamera_imx219_chicony.so
 vendor/lib/libmmcamera_imx219.so
