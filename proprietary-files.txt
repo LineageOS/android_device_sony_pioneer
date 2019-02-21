@@ -1,30 +1,59 @@
 # Audio ACDB
-vendor/etc/acdbdata/MTP/SM12/MTP_SM12_ACDB_version.txt
-vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/SM12/MTP_SM12_General_cal.acdb
-vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Global_cal.acdb
-vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/SM12/MTP_SM12_workspaceFile.qwsp
-vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_ACDB_version.txt
-vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_General_cal.acdb
-vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Global_cal.acdb
-vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/SM12_TP/MTP_SM12_TP_workspaceFile.qwsp
+vendor/etc/acdbdata/adsp_avs_config.acdb
+vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
+vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Codec_cal.acdb
+vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_General_cal.acdb
+vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Global_cal.acdb
+vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Handset_cal.acdb
+vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb
+vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb
+vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_General_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Global_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Handset_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Headset_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_General_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Global_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Handset_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Headset_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_workspaceFile.qwsp
+vendor/etc/acdbdata/Sony/Sony_ganges_Bluetooth_cal.acdb
+vendor/etc/acdbdata/Sony/Sony_ganges_General_cal.acdb
+vendor/etc/acdbdata/Sony/Sony_ganges_Global_cal.acdb
+vendor/etc/acdbdata/Sony/Sony_ganges_Handset_cal.acdb
+vendor/etc/acdbdata/Sony/Sony_ganges_Hdmi_cal.acdb
+vendor/etc/acdbdata/Sony/Sony_ganges_Headset_cal.acdb
+vendor/etc/acdbdata/Sony/Sony_ganges_Speaker_cal.acdb
+vendor/etc/acdbdata/Sony/workspaceFile_Sony_ganges.qwsp
 
 # Camera actuators
-vendor/firmware/bu24228gwl_fw1.bin
-vendor/firmware/bu24228gwl_fw2.bin
 vendor/firmware/bu64747gwz.coeff
 vendor/firmware/bu64747gwz.prog
 vendor/lib/libactuator_bu64747gwz.so
-vendor/lib/libactuator_bu24228gwl.so
 
 # Camera chromatix
 vendor/lib/libchromatix_imx219_chicony_common.so
@@ -37,15 +66,8 @@ vendor/lib/libchromatix_imx219_chicony_video.so
 vendor/lib/libchromatix_imx219_chicony_zsl_preview_3rd_lc898122.so
 vendor/lib/libchromatix_imx219_chicony_zsl_preview_lc898122.so
 vendor/lib/libchromatix_imx219_chicony_zsl_video_lc898122.so
-vendor/lib/libchromatix_imx219_common.so
-vendor/lib/libchromatix_imx219_cpp_liveshot.so
-vendor/lib/libchromatix_imx219_cpp_preview.so
 vendor/lib/libchromatix_imx219_cpp_snapshot.so
 vendor/lib/libchromatix_imx219_cpp_video.so
-vendor/lib/libchromatix_imx219_default_video.so
-vendor/lib/libchromatix_imx219_liveshot.so
-vendor/lib/libchromatix_imx219_postproc.so
-vendor/lib/libchromatix_imx219_preview.so
 vendor/lib/libchromatix_imx219_sm42_common.so
 vendor/lib/libchromatix_imx219_sm42_cpp_snapshot_B.so
 vendor/lib/libchromatix_imx219_sm42_cpp_snapshot.so
@@ -56,36 +78,7 @@ vendor/lib/libchromatix_imx219_sm42_video.so
 vendor/lib/libchromatix_imx219_sm42_zsl_preview_3rd.so
 vendor/lib/libchromatix_imx219_sm42_zsl_preview.so
 vendor/lib/libchromatix_imx219_sm42_zsl_video.so
-vendor/lib/libchromatix_imx219_snapshot.so
-vendor/lib/libchromatix_imx219_zsl_preview_lc898122.so
-vendor/lib/libchromatix_imx219_zsl_video_lc898122.so
-vendor/lib/libchromatix_imx300_4K_panorama.so
-vendor/lib/libchromatix_imx300_4K_preview.so
-vendor/lib/libchromatix_imx300_4K_video.so
-vendor/lib/libchromatix_imx300_common_6db.so
-vendor/lib/libchromatix_imx300_common.so
-vendor/lib/libchromatix_imx300_cpp_hfr_120.so
-vendor/lib/libchromatix_imx300_cpp_hfr_60.so
-vendor/lib/libchromatix_imx300_cpp_hfr_90.so
-vendor/lib/libchromatix_imx300_cpp_liveshot.so
-vendor/lib/libchromatix_imx300_cpp_preview.so
-vendor/lib/libchromatix_imx300_cpp_snapshot_hdr.so
 vendor/lib/libchromatix_imx300_cpp_snapshot.so
-vendor/lib/libchromatix_imx300_cpp_video_hdr.so
-vendor/lib/libchromatix_imx300_cpp_video.so
-vendor/lib/libchromatix_imx300_default_preview.so
-vendor/lib/libchromatix_imx300_default_video.so
-vendor/lib/libchromatix_imx300_hdr_snapshot_3a.so
-vendor/lib/libchromatix_imx300_hdr_video_3a.so
-vendor/lib/libchromatix_imx300_hfr_120_3a.so
-vendor/lib/libchromatix_imx300_hfr_120.so
-vendor/lib/libchromatix_imx300_hfr_60_3a.so
-vendor/lib/libchromatix_imx300_hfr_60.so
-vendor/lib/libchromatix_imx300_hfr_90_3a.so
-vendor/lib/libchromatix_imx300_hfr_90.so
-vendor/lib/libchromatix_imx300_liveshot.so
-vendor/lib/libchromatix_imx300_postproc.so
-vendor/lib/libchromatix_imx300_preview.so
 vendor/lib/libchromatix_imx300_sm42_4K_panorama.so
 vendor/lib/libchromatix_imx300_sm42_4K_preview.so
 vendor/lib/libchromatix_imx300_sm42_4K_video_hdr.so
@@ -112,18 +105,9 @@ vendor/lib/libchromatix_imx300_sm42_zsl_preview_quick.so
 vendor/lib/libchromatix_imx300_sm42_zsl_preview.so
 vendor/lib/libchromatix_imx300_sm42_zsl_video_hdr_3a.so
 vendor/lib/libchromatix_imx300_sm42_zsl_video.so
-vendor/lib/libchromatix_imx300_snapshot_hdr.so
-vendor/lib/libchromatix_imx300_snapshot.so
-vendor/lib/libchromatix_imx300_video_hdr.so
-vendor/lib/libchromatix_imx300_video.so
-vendor/lib/libchromatix_imx300_zsl_preview_20m_6db.so
-vendor/lib/libchromatix_imx300_zsl_preview_20m.so
-vendor/lib/libchromatix_imx300_zsl_preview_6db.so
-vendor/lib/libchromatix_imx300_zsl_preview.so
-vendor/lib/libchromatix_imx300_zsl_video.so
 
 # Camera configs
-vendor/etc/camera/camera_config.xml
+vendor/etc/camera/sm12_camera_config.xml
 vendor/etc/camera/imx219_chicony_chromatix.xml
 vendor/etc/camera/imx219_chromatix.xml
 vendor/etc/camera/imx300_chromatix.xml
@@ -227,7 +211,7 @@ vendor/etc/IMX300/ISO9000_2592x1944.ncf
 vendor/etc/IMX300/ISO9000_3200x1808.ncf
 
 # Camera OIS
-vendor/lib/libois_bu24228.so
+vendor/lib/libois_bu63165.so
 
 # Camera sensors
 vendor/lib/libmmcamera_imx219_chicony.so
@@ -235,7 +219,7 @@ vendor/lib/libmmcamera_imx219.so
 vendor/lib/libmmcamera_imx300.so
 
 # QNS
-vendor/bin/qns_12:vendor/bin/qns
+vendor/bin/qns
 
 # WiFi
-vendor/etc/wifi/bdwlan12.bin
+vendor/etc/wifi/bdwlan.bin
