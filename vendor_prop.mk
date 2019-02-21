@@ -18,8 +18,8 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.semc.product.model=H3113 \
     ro.semc.version.fs=GENERIC \
-    ro.semc.version.fs_revision=50.1.A.13.123 \
+    ro.semc.version.fs_revision=50.2.A.0.342 \
     ro.semc.version.sw=1311-2845 \
-    ro.semc.version.sw_revision=50.1.A.13.123 \
+    ro.semc.version.sw_revision=50.2.A.0.342 \
     ro.semc.version.sw_type=user \
     ro.semc.version.sw_variant=GLOBAL-A1
