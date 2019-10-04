@@ -19,5 +19,8 @@
 
 DEVICE_PATH := device/sony/pioneer
 
+# Kernel
+TARGET_KERNEL_CONFIG := pioneer_defconfig
+
 # inherit from the proprietary version
 -include vendor/sony/pioneer/BoardConfigVendor.mk
