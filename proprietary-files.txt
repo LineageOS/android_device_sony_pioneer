@@ -176,7 +176,6 @@ vendor/lib/libmmcamera_imx300.so
 
 # Display calibration data
 vendor/etc/qdcm_calib_data_5.xml
-vendor/etc/qdcm_calib_data_5.xml:vendor/etc/qdcm_calib_data_default.xml
 
 # QNS
 vendor/bin/qns
