@@ -1,3 +1,6 @@
+# Radio
+ro.telephony.use_old_mnc_mcc_format=true
+
 # SEMC
 ro.semc.product.model=H3113
 ro.semc.version.fs=GENERIC
