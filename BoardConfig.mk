@@ -22,5 +22,8 @@ DEVICE_PATH := device/sony/pioneer
 # Kernel
 TARGET_KERNEL_CONFIG := pioneer_defconfig
 
+# MAC address setup
+BOARD_HAS_MIRROR_MACADDRESS := true
+
 # inherit from the proprietary version
 -include vendor/sony/pioneer/BoardConfigVendor.mk
