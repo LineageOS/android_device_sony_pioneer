@@ -197,4 +197,5 @@ vendor/etc/sensors/sensor_def_somc_product.conf
 vendor/etc/sensors/sensor_def_somc_platform.conf
 
 # WiFi
+vendor/bin/cnss-daemon
 vendor/etc/wifi/bdwlan.bin
