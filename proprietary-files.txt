@@ -192,6 +192,10 @@ vendor/lib64/libkeymasterutils.so
 # QNS
 vendor/bin/qns
 
+# Keyprov
+vendor/bin/keyprovd
+vendor/etc/init/init.keyprovd.rc
+
 # Secd
 vendor/etc/firmware/tzsuntory.b00
 vendor/etc/firmware/tzsuntory.b01
