@@ -189,6 +189,10 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 
+# Keyprov
+vendor/bin/keyprovd
+vendor/etc/init/init.keyprovd.rc
+
 # QNS
 vendor/bin/qns
 
