@@ -347,6 +347,9 @@ vendor/lib64/vendor.somc.hardware.security.secd@1.0.so
 vendor/etc/sensors/sensor_def_somc_product.conf
 vendor/etc/sensors/sensor_def_somc_platform.conf
 
+# Thermal
+vendor/etc/thermal-engine.conf
+
 # WiFi
 vendor/bin/cnss-daemon
 vendor/etc/wifi/bdwlan.bin
