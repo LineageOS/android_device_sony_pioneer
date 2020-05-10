@@ -34,5 +34,12 @@ $(KEYMASTER_IMPL_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 	@rm -rf $@
 	$(hide) ln -sf hw/$(notdir $@) $@
 
-ALL_DEFAULT_INSTALLED_MODULES += $(KEYMASTER_IMPL_SYMLINK)
+LIBPROTOBUF_SYMLINK := $(TARGET_OUT_VENDOR)/lib64/libprotobuf-c.so
+$(LIBPROTOBUF_SYMLINK): $(LOCAL_INSTALLED_MODULE)
+	@echo "Creating libprotobuf symlink: $@"
+	@mkdir -p $(dir $@)
+	@rm -rf $@
+	$(hide) ln -sf $(notdir $@) libprotobuf-c-idd.so
+
+ALL_DEFAULT_INSTALLED_MODULES += $(KEYMASTER_IMPL_SYMLINK) $(LIBPROTOBUF_SYMLINK)
 endif
