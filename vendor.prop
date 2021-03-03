@@ -1,3 +1,7 @@
+# Chipset
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SDM630
+
 # Radio
 ro.telephony.use_old_mnc_mcc_format=true
 
