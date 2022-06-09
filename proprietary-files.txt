@@ -12,6 +12,7 @@ vendor/etc/acdbdata/Sony/workspaceFile_Sony_ganges.qwsp
 
 # Camera
 vendor/lib/hw/camera.sdm660.so
+vendor/lib/libSonyIMX300PdafLibrary.so
 vendor/lib/libarcimageprocess.so
 vendor/lib/libarcsoft_antishaking.so
 vendor/lib/libarcsoft_beautyshot.so
@@ -92,7 +93,6 @@ vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
-vendor/lib/libSonyIMX300PdafLibrary.so
 
 # Camera actuators
 vendor/firmware/bu64747gwz.coeff
@@ -101,8 +101,8 @@ vendor/lib/libactuator_bu64747gwz.so
 
 # Camera chromatix
 vendor/lib/libchromatix_imx219_chicony_common.so
-vendor/lib/libchromatix_imx219_chicony_cpp_snapshot_B.so
 vendor/lib/libchromatix_imx219_chicony_cpp_snapshot.so
+vendor/lib/libchromatix_imx219_chicony_cpp_snapshot_B.so
 vendor/lib/libchromatix_imx219_chicony_cpp_video.so
 vendor/lib/libchromatix_imx219_chicony_postproc.so
 vendor/lib/libchromatix_imx219_chicony_snapshot.so
@@ -113,48 +113,48 @@ vendor/lib/libchromatix_imx219_chicony_zsl_video_lc898122.so
 vendor/lib/libchromatix_imx219_cpp_snapshot.so
 vendor/lib/libchromatix_imx219_cpp_video.so
 vendor/lib/libchromatix_imx219_sm42_common.so
-vendor/lib/libchromatix_imx219_sm42_cpp_snapshot_B.so
 vendor/lib/libchromatix_imx219_sm42_cpp_snapshot.so
+vendor/lib/libchromatix_imx219_sm42_cpp_snapshot_B.so
 vendor/lib/libchromatix_imx219_sm42_cpp_video.so
 vendor/lib/libchromatix_imx219_sm42_postproc.so
 vendor/lib/libchromatix_imx219_sm42_snapshot.so
 vendor/lib/libchromatix_imx219_sm42_video.so
-vendor/lib/libchromatix_imx219_sm42_zsl_preview_3rd.so
 vendor/lib/libchromatix_imx219_sm42_zsl_preview.so
+vendor/lib/libchromatix_imx219_sm42_zsl_preview_3rd.so
 vendor/lib/libchromatix_imx219_sm42_zsl_video.so
 vendor/lib/libchromatix_imx300_cpp_snapshot.so
 vendor/lib/libchromatix_imx300_sm42_4K_panorama.so
 vendor/lib/libchromatix_imx300_sm42_4K_preview.so
 vendor/lib/libchromatix_imx300_sm42_4K_video_hdr.so
-vendor/lib/libchromatix_imx300_sm42_common_old.so
 vendor/lib/libchromatix_imx300_sm42_common.so
-vendor/lib/libchromatix_imx300_sm42_cpp_snapshot_B.so
+vendor/lib/libchromatix_imx300_sm42_common_old.so
 vendor/lib/libchromatix_imx300_sm42_cpp_snapshot.so
-vendor/lib/libchromatix_imx300_sm42_cpp_video_hdr.so
+vendor/lib/libchromatix_imx300_sm42_cpp_snapshot_B.so
 vendor/lib/libchromatix_imx300_sm42_cpp_video.so
+vendor/lib/libchromatix_imx300_sm42_cpp_video_hdr.so
 vendor/lib/libchromatix_imx300_sm42_hfr_120_3a.so
 vendor/lib/libchromatix_imx300_sm42_hfr_60_3a.so
 vendor/lib/libchromatix_imx300_sm42_postproc.so
-vendor/lib/libchromatix_imx300_sm42_snapshot_quick.so
 vendor/lib/libchromatix_imx300_sm42_snapshot.so
-vendor/lib/libchromatix_imx300_sm42_video_hdr.so
+vendor/lib/libchromatix_imx300_sm42_snapshot_quick.so
 vendor/lib/libchromatix_imx300_sm42_video.so
+vendor/lib/libchromatix_imx300_sm42_video_hdr.so
+vendor/lib/libchromatix_imx300_sm42_zsl_preview.so
+vendor/lib/libchromatix_imx300_sm42_zsl_preview_20m.so
 vendor/lib/libchromatix_imx300_sm42_zsl_preview_20m_3rd.so
 vendor/lib/libchromatix_imx300_sm42_zsl_preview_20m_manual.so
 vendor/lib/libchromatix_imx300_sm42_zsl_preview_20m_quick.so
-vendor/lib/libchromatix_imx300_sm42_zsl_preview_20m.so
 vendor/lib/libchromatix_imx300_sm42_zsl_preview_3rd.so
 vendor/lib/libchromatix_imx300_sm42_zsl_preview_manual.so
 vendor/lib/libchromatix_imx300_sm42_zsl_preview_quick.so
-vendor/lib/libchromatix_imx300_sm42_zsl_preview.so
-vendor/lib/libchromatix_imx300_sm42_zsl_video_hdr_3a.so
 vendor/lib/libchromatix_imx300_sm42_zsl_video.so
+vendor/lib/libchromatix_imx300_sm42_zsl_video_hdr_3a.so
 
 # Camera configs
-vendor/etc/camera/sm12_camera_config.xml
 vendor/etc/camera/imx219_chicony_chromatix.xml
 vendor/etc/camera/imx219_chromatix.xml
 vendor/etc/camera/imx300_chromatix.xml
+vendor/etc/camera/sm12_camera_config.xml
 
 # Camera eeproms
 vendor/lib/libmmcamera_sony_imx219_eeprom.so
@@ -327,6 +327,7 @@ vendor/etc/init/init.keyprovd.rc
 vendor/bin/qns
 
 # Secd
+vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
 vendor/etc/firmware/tzsuntory.b00
 vendor/etc/firmware/tzsuntory.b01
 vendor/etc/firmware/tzsuntory.b02
@@ -336,7 +337,6 @@ vendor/etc/firmware/tzsuntory.b05
 vendor/etc/firmware/tzsuntory.b06
 vendor/etc/firmware/tzsuntory.b07
 vendor/etc/firmware/tzsuntory.mdt
-vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
 vendor/etc/init/vendor.semc.hardware.secd@1.0-service.rc
 vendor/lib/libdevice_security_vendor.so
 vendor/lib/libsuntory.so
@@ -346,8 +346,8 @@ vendor/lib64/libsuntory.so
 vendor/lib64/vendor.somc.hardware.security.secd@1.0.so
 
 # Sensors
-vendor/etc/sensors/sensor_def_somc_product.conf
 vendor/etc/sensors/sensor_def_somc_platform.conf
+vendor/etc/sensors/sensor_def_somc_product.conf
 
 # Thermal
 vendor/etc/thermal-engine.conf
