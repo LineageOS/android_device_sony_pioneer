@@ -23,7 +23,10 @@ DEVICE_PATH := device/sony/pioneer
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := pioneer_defconfig
+TARGET_KERNEL_CONFIG := \
+    vendor/sdm660-perf_defconfig \
+    vendor/sony/common.config \
+    vendor/sony/pioneer.config
 
 # MAC address setup
 BOARD_HAS_MIRROR_MACADDRESS := true
