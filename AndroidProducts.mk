@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_pioneer.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_pioneer-user \
-    lineage_pioneer-userdebug \
-    lineage_pioneer-eng
