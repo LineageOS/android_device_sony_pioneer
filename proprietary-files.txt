@@ -93,6 +93,7 @@ vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
+vendor/lib64/libcdsprpc.so
 
 # Camera actuators
 vendor/firmware/bu64747gwz.coeff
