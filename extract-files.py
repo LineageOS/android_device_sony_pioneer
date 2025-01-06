@@ -14,6 +14,8 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
+    'hardware/qcom-caf/msm8998',
+    'hardware/qcom-caf/wlan',
     'vendor/sony/nile-common',
 ]
 
@@ -35,7 +37,6 @@ module = ExtractUtilsModule(
     'sony',
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
-    check_elf=False,
 )
 
 if __name__ == '__main__':
