@@ -18,6 +18,8 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/bin/hw/vendor.semc.hardware.secd@1.0-service': blob_fixup()
+        .replace_needed('libprotobuf-c.so', 'libprotobuf-c-idd.so'),
     ('vendor/bin/qns', 'vendor/lib/libSonyIMX300PdafLibrary.so'): blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
     ('vendor/lib/vendor.somc.hardware.security.secd@1.0.so', 'vendor/lib64/vendor.somc.hardware.security.secd@1.0.so'): blob_fixup()
