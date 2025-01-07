@@ -22,6 +22,10 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libprotobuf-c.so', 'libprotobuf-c-idd.so'),
     'vendor/bin/qns': blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
+    'vendor/lib/libmmcamera_faceproc.so': blob_fixup()
+        .clear_symbol_version('__aeabi_memcpy')
+        .clear_symbol_version('__aeabi_memset')
+        .clear_symbol_version('__gnu_Unwind_Find_exidx'),
     'vendor/lib/libSonyIMX300PdafLibrary.so': blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
     ('vendor/lib/vendor.somc.hardware.security.secd@1.0.so', 'vendor/lib64/vendor.somc.hardware.security.secd@1.0.so'): blob_fixup()
