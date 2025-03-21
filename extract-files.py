@@ -28,6 +28,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('__aeabi_memcpy')
         .clear_symbol_version('__aeabi_memset')
         .clear_symbol_version('__gnu_Unwind_Find_exidx'),
+    'vendor/lib/libmmcamera_tuning.so': blob_fixup()
+        .remove_needed('libmm-qcamera.so'),
     'vendor/lib/libSonyIMX300PdafLibrary.so': blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
     ('vendor/lib/vendor.somc.hardware.security.secd@1.0.so', 'vendor/lib64/vendor.somc.hardware.security.secd@1.0.so'): blob_fixup()
