@@ -332,7 +332,6 @@ vendor/etc/firmware/tzsuntory.b06
 vendor/etc/firmware/tzsuntory.b07
 vendor/etc/firmware/tzsuntory.mdt
 vendor/etc/init/vendor.semc.hardware.secd@1.0-service.rc
-vendor/lib/libdevice_security_vendor.so
 vendor/lib/libsuntory.so
 vendor/lib/vendor.somc.hardware.security.secd@1.0.so
 vendor/lib64/libdevice_security_vendor.so
