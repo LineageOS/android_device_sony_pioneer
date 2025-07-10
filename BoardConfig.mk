@@ -28,9 +28,6 @@ TARGET_KERNEL_CONFIG := \
     vendor/sony/common.config \
     vendor/sony/pioneer.config
 
-# MAC address setup
-BOARD_HAS_MIRROR_MACADDRESS := true
-
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
