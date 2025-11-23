@@ -34,7 +34,7 @@ PRODUCT_PACKAGES += \
     init.target.rc
 
 # MAC address setup
-$(call soong_config_set,sony_macaddrsetup,mirror_mac_address,true)
+$(call soong_config_set_bool,sony_macaddrsetup,mirror_mac_address,true)
 
 # NFC
 PRODUCT_COPY_FILES += \
