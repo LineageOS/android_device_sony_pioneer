@@ -22,6 +22,7 @@ namespace_imports = [
 
 blob_fixups: blob_fixups_user_type = {
     'vendor/bin/hw/vendor.semc.hardware.secd@1.0-service': blob_fixup()
+        .replace_needed('libcrypto.so', 'libcrypto-v33.so')
         .replace_needed('libprotobuf-c.so', 'libprotobuf-c-idd.so'),
     'vendor/bin/qns': blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
